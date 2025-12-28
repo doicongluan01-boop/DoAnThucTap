@@ -1,0 +1,636 @@
+/* ================== TOÀN BỘ CSS ĐÃ ĐƯỢC SỬA ĐỂ BẢNG ĐIỂM RỘNG HẾT, KHÔNG CÒN TRỐNG 2 BÊN ================== */
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ===== LOGIN PAGE ONLY ===== */
+body.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+.login-box {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 360px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.input-box {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  font-size: 14px;
+  color: #555;
+}
+
+input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+input:focus {
+  border-color: #2575fc;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #2575fc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #6a11cb;
+}
+
+.forgot {
+  display: block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #555;
+  text-decoration: none;
+}
+
+.forgot:hover {
+  color: #2575fc;
+}
+
+.logo {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 80px;
+  height: auto;
+  z-index: 1000;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+/* ===== DASHBOARD LVTN – ĐÃ SỬA ĐỂ RỘNG HẾT ===== */
+.dashboard-body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #5b0ff5, #2575fc);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;                    /* QUAN TRỌNG: flex cho toàn bộ body */
+}
+
+.dashboard-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+/* ===== Sidebar – sát lề trái ===== */
+.sidebar {
+  width: 280px;
+  background: linear-gradient(180deg, #4b0eff, #6a11cb);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 30px;
+  color: white;
+  flex-shrink: 0; 
+  overflow-x: hidden;
+}
+
+.logo-sidebar {
+  width: 110px;
+  margin-bottom: 40px;
+}
+
+.user-info {
+  text-align: center;
+}
+
+.user-info h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#logoutBtn {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#logoutBtn:hover {
+  background: #004dcf;
+}
+
+/* =====	Main area – chiếm hết phần còn lại, sát viền phải ===== */
+.main-area {
+  flex: 1;                          /* Chiếm hết không gian còn lại */
+  padding: 20px 30px;               /* Padding vừa đủ, không quá rộng */
+  display: flex;
+  flex-direction: column;
+  min-width: 0;                     /* Cho phép co lại nếu cần */
+}
+
+/* ===== Top menu ===== */
+.top-menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 18px;
+  background: rgba(255, 255, 255, 0.12);
+  padding: 14px 25px;
+  border-radius: 16px;
+  margin-bottom: 30px;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.top-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px 18px;
+  border-radius: 10px;
+  position: relative;
+  transition: all 0.3s ease;
+  background: rgba(255,255,255,0.05);
+}
+
+.top-menu a:hover {
+  background: rgba(255,255,255,0.25);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(255,255,255,0.2);
+}
+
+.top-menu a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 4px;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.top-menu a:hover::after {
+  width: 60%;
+}
+
+.top-menu a.active {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  box-shadow: 0 0 12px rgba(37,117,252,0.6);
+  transform: translateY(-1px);
+}
+
+/* ===== Content area – rộng hết, không còn trống 2 bên ===== */
+.content-area {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(20px);
+  border-radius: 24px;
+  padding: 35px 45px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+  overflow-y: auto;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+}
+
+/* ===== Bảng điểm rộng hết, đẹp chuẩn STU ===== */
+.content-area table {
+  width: 100% !important;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.content-area table th {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  padding: 16px 12px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.content-area table td {
+  padding: 14px 12px;
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.content-area table tr:hover {
+  background: rgba(255,255,255,0.12);
+}
+
+.content-area .ck {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #a8ff35;
+}
+
+/* Form tìm kiếm */
+.content-area .form-control,
+.content-area .form-select {
+  background: rgba(255,255,255,0.2);
+  border: 1px solid rgba(255,255,255,0.3);
+  color: white;
+  border-radius: 12px;
+}
+
+.content-area .form-control::placeholder {
+  color: rgba(255,255,255,0.7);
+}
+
+.content-area .btn {
+  border-radius: 12px;
+  padding: 12px 24px;
+  font-weight: 600;
+}
+
+/* Các phần còn lại giữ nguyên */
+.card {
+  background: linear-gradient(145deg, rgba(255,255,255,0.15), rgba(255,255,255,0.05));
+  border-radius: 18px;
+  padding: 25px 30px;
+  color: white;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.submenu a {
+  display: block;
+  color: rgba(255,255,255,0.9);
+  text-decoration: none;
+  padding: 14px 25px;
+  margin: 8px 15px;
+  border-radius: 12px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.submenu a:hover {
+  background: rgba(255,255,255,0.2);
+  transform: translateX(10px);
+}
+
+.submenu a.active-sub {
+  background: rgba(255,255,255,0.3);
+  font-weight: 600;
+}
+.btn-login {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: 600
+}
+/* =====================================================
+   DASHBOARD RESPONSIVE – CLEAN VERSION
+   Áp dụng cho body.dashboard-body
+===================================================== */
+
+/* ================= DESKTOP ================= */
+@media (min-width: 769px) {
+
+  body.dashboard-body {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .dashboard-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .sidebar {
+    width: 280px;
+    height: 100vh;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .main-area {
+    flex: 1;
+    padding: 20px 30px;
+    overflow: hidden;
+  }
+
+  /* Desktop không dùng mobile UI */
+  .menu-toggle,
+  .mobile-topbar,
+  .mobile-overlay,
+  .bottom-nav {
+    display: none;
+  }
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+
+  body.dashboard-body {
+    display: block;
+    overflow-x: hidden;
+  }
+
+  .dashboard-container {
+    min-height: 100vh;
+  }
+
+  /* ===== SIDEBAR OVERLAY ===== */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -260px;
+    width: 260px;
+    height: 100vh;
+    background: inherit;
+    z-index: 4000;
+    transition: left .3s ease;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .sidebar.show {
+    left: 0;
+  }
+
+  /* ===== OVERLAY ===== */
+  .mobile-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.45);
+    z-index: 3500;
+    display: none;
+  }
+
+  .mobile-overlay.show {
+    display: block;
+  }
+
+  /* ===== TOP BAR ===== */
+  .mobile-topbar {
+    position: sticky;
+    top: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 12px;
+    background: linear-gradient(135deg,#6a11cb,#2575fc);
+    z-index: 5000;
+  }
+
+  /* ===== HAMBURGER ===== */
+  .menu-toggle {
+    background: rgba(0,0,0,.25);
+    border: none;
+    color: #fff;
+    font-size: 22px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 6000;
+  }
+
+  /* ===== TOP MENU ===== */
+  .top-menu {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+  }
+
+  .top-menu a {
+    white-space: nowrap;
+  }
+
+  /* ===== MAIN ===== */
+  .main-area {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .content-area {
+    width: 100%;
+  }
+}
+
+/* =====================================================
+   SUBMENU – KHÓA TRÀN (DESKTOP + MOBILE)
+===================================================== */
+
+.sidebar {
+  overflow-x: hidden;
+  position: relative;
+}
+
+.submenu {
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.submenu a,
+.submenu button {
+  display: block;
+  width: 100%;
+  white-space: normal;
+  word-break: break-word;
+  box-sizing: border-box;
+}
+
+/* Mobile: sidebar ẩn thì submenu cũng ẩn */
+@media (max-width: 768px) {
+  .sidebar:not(.show) .submenu {
+    display: none;
+  }
+}
+/* ===== HARD FIX DESKTOP ===== */
+@media (min-width: 769px) {
+  .mobile-overlay {
+    display: none !important;
+    pointer-events: none !important;
+  }
+
+  .sidebar {
+    left: 0 !important;
+  }
+}
+/* ================= RESET ================= */
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* ================= DESKTOP ================= */
+@media (min-width: 769px) {
+
+  body.dashboard-body {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .dashboard-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .sidebar {
+    width: 280px;
+    height: 100vh;
+    position: relative;
+  }
+
+  .main-area {
+    flex: 1;
+    overflow: hidden;
+  }
+
+  .mobile-topbar,
+  .menu-toggle,
+  .mobile-overlay,
+  .bottom-nav {
+    display: none !important;
+  }
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+
+  body.dashboard-body {
+    display: block;
+    height: auto;              /* 🔥 QUAN TRỌNG */
+    overflow-y: auto;          /* 🔥 BODY SCROLL */
+    overflow-x: hidden;
+  }
+
+  .dashboard-container {
+    display: block;
+    width: 100%;
+  }
+
+  /* ===== TOP BAR ===== */
+  .mobile-topbar {
+    position: sticky;
+    top: 0;
+    height: 50px;
+    z-index: 1000;
+  }
+
+  /* ===== SIDEBAR ===== */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -260px;
+    width: 260px;
+    height: 100vh;
+    overflow-y: auto;
+    transition: left 0.3s ease;
+    z-index: 2000;
+  }
+
+  .sidebar.show {
+    left: 0;
+  }
+
+  /* ===== OVERLAY ===== */
+  .mobile-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1500;
+    display: none;
+  }
+
+  .mobile-overlay.show {
+    display: block;
+  }
+
+  /* ===== MAIN ===== */
+  .main-area {
+    padding: 10px;
+  }
+
+  .content-area {
+    padding-bottom: 90px; /* chừa bottom nav */
+  }
+
+  /* ===== BOTTOM NAV ===== */
+  .bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 65px;
+    z-index: 1200;
+  }
+
+  /* Desktop menu ẩn */
+  .desktop-top-menu {
+    display: none;
+  }
+}
+
+

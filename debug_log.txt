@@ -1,0 +1,70 @@
+2025-11-29 06:37:31
+REQUEST_METHOD: GET
+CONTENT_LENGTH: N/A
+FILES COUNT: 0
+FILES: Array
+(
+)
+
+POST: Array
+(
+)
+
+2025-11-29 06:37:31
+REQUEST_METHOD: GET
+CONTENT_LENGTH: N/A
+FILES COUNT: 0
+FILES: Array
+(
+)
+
+POST: Array
+(
+)
+
+❌ ERROR: ❌ KHÔNG TÌM THẤY file_excel | Files: 0
+2025-11-29 06:37:44
+REQUEST_METHOD: POST
+CONTENT_LENGTH: 2242216
+FILES COUNT: 1
+FILES: Array
+(
+    [file_excel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+POST: Array
+(
+)
+
+2025-11-29 06:37:44
+REQUEST_METHOD: POST
+CONTENT_LENGTH: 2242216
+FILES COUNT: 1
+FILES: Array
+(
+    [file_excel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+POST: Array
+(
+)
+
+❌ ERROR: Lỗi upload #1: File quá lớn (>50M)

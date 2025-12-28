@@ -1,0 +1,410 @@
+2025-11-29 04:46:42 - $_FILES: Array
+(
+    [file_excel] => Array
+        (
+            [name] => New_DSSV_GVHD_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => New_DSSV_GVHD_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+2025-11-29 04:46:57 - $_FILES: Array
+(
+)
+
+2025-11-29 04:48:20 - $_FILES: Array
+(
+    [file_excel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+2025-11-29 04:49:21 - $_FILES: Array
+(
+    [file_excel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+2025-11-29 04:49:26 - $_FILES: Array
+(
+    [file_excel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+2025-11-29 04:51:53 - $_FILES: Array
+(
+    [file_excel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+2025-11-29 04:55:06 - $_FILES: Array
+(
+    [file_excel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+2025-11-29 04:55:16 - $_FILES: Array
+(
+)
+
+2025-11-29 05:02:38 - $_FILES: Array
+(
+    [fileExcel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+2025-11-29 05:06:43 - $_FILES: Array
+(
+    [fileExcel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+2025-11-29 05:08:21 - $_FILES: Array
+(
+    [fileExcel] => Array
+        (
+            [name] => New_DSSV_GVHD_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => New_DSSV_GVHD_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+2025-11-29 05:08:25 - $_FILES: Array
+(
+    [fileExcel] => Array
+        (
+            [name] => Diem_Tong_Ket_LVTN_26-11-2025.xls
+            [full_path] => Diem_Tong_Ket_LVTN_26-11-2025.xls
+            [type] => application/vnd.ms-excel
+            [tmp_name] => C:\Users\Admin\AppData\Local\Temp\php4B5D.tmp
+            [error] => 0
+            [size] => 5783
+        )
+
+)
+
+2025-11-29 05:08:29 - $_FILES: Array
+(
+    [fileExcel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+2025-11-29 05:08:55 - $_FILES: Array
+(
+)
+
+2025-11-29 05:08:58 - $_FILES: Array
+(
+)
+
+2025-11-29 05:11:37 - $_FILES: Array
+(
+)
+
+2025-11-29 05:11:52 - $_FILES: Array
+(
+    [file_excel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+2025-11-29 05:13:47 - $_FILES: Array
+(
+    [file_excel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+2025-11-29 05:13:54 - $_FILES: Array
+(
+)
+
+2025-11-29 05:14:07 - $_FILES: Array
+(
+    [file_excel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+2025-11-29 05:20:16 - $_FILES: Array
+(
+    [file_excel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+2025-11-29 05:48:58 - $_FILES: Array
+(
+    [file_excel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+2025-11-29 05:49:21 - $_FILES: Array
+(
+)
+
+2025-11-29 05:50:12 - $_FILES: Array
+(
+    [file_excel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+2025-11-29 05:50:53 - $_FILES: Array
+(
+    [file_excel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+2025-11-29 05:54:04 - $_FILES: Array
+(
+    [file_excel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+2025-11-29 05:59:35 - $_FILES: Array
+(
+    [file_excel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+2025-11-29 05:59:47 - $_FILES: Array
+(
+)
+
+2025-11-29 06:03:14 - $_FILES: Array
+(
+    [file_excel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+2025-11-29 06:05:13
+METHOD: POST
+FILES: Array
+(
+    [file_excel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+POST: Array
+(
+)
+
+2025-11-29 06:05:13 ERROR: Lỗi upload: 1 | FILES: Array
+(
+    [file_excel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+2025-11-29 06:16:24
+METHOD: POST
+FILES: Array
+(
+    [file_excel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+2025-11-29 06:16:24 ERROR: Lỗi upload: 1
+2025-11-29 06:17:54
+FILES: Array
+(
+    [file_excel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+2025-11-29 06:19:05
+LIMITS: upload=2M post=8M
+FILES: Array
+(
+    [file_excel] => Array
+        (
+            [name] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [full_path] => DSSV_LVTN_Dot2_Thang10_2025.xlsx
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+2025-11-29 06:34:25 | Limits: 2M
+ERROR: Không nhận được file
