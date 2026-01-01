@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Nhiệm vụ Bài thi Tốt nghiệp</title>
+
+<style>
+/* ===== BODY ===== */
+body {
+    font-family: "Times New Roman", serif;
+    font-size: 12.5pt;
+    line-height: 1.45;
+    margin: 2cm 2.5cm 2.5cm 2.5cm;
+
+    /* FIX WORD INDENT */
+    mso-margin-left-alt:0pt;
+    mso-margin-right-alt:0pt;
+}
+
+/* ===== TABLE HEADER ===== */
+.table-header {
+    width:15.5cm;
+    margin:0 auto;
+    border-collapse:collapse;
+
+    /* FIX LỆCH WORD */
+    mso-table-lspace:0pt;
+    mso-table-rspace:0pt;
+    mso-table-anchor-horizontal:margin;
+    mso-table-anchor-vertical:margin;
+}
+
+/* ===== TABLE BODY (CHO CÁC BẢNG KHÁC) ===== */
+.table-body {
+    width:16.5cm;
+    margin:0 auto;
+    border-collapse:collapse;
+
+    mso-table-lspace:0pt;
+    mso-table-rspace:0pt;
+}
+
+/* ===== TEXT ===== */
+p { margin:0; }
+.center { text-align:center; }
+.bold { font-weight:bold; }
+.mt20 { margin-top:20px; }
+.mt30 { margin-top:30px; }
+.mt40 { margin-top:40px; }
+.indent { margin-left:40px; }
+</style>
+</head>
+
+<body>
+
+<!-- ================== QUỐC HIỆU ================== -->
+<table class="table-header">
+<tr>
+<td width="50%" align="center">
+    <strong>BỘ GIÁO DỤC VÀ ĐÀO TẠO</strong><br>
+    <strong>TRƯỜNG ĐẠI HỌC CÔNG NGHỆ SÀI GÒN</strong><br>
+    TP. HỒ CHÍ MINH
+    <div style="width:70%; border-bottom:1px solid #000; margin:6px auto 0;"></div>
+</td>
+<td width="50%" align="center">
+    <strong>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</strong><br>
+    <strong>Độc lập – Tự do – Hạnh phúc</strong>
+    <div style="width:70%; border-bottom:1px solid #000; margin:6px auto 0;"></div>
+</td>
+</tr>
+</table>
+
+<!-- ================== KHOA + TIÊU ĐỀ ================== -->
+<p class="center mt30 bold">KHOA: CÔNG NGHỆ THÔNG TIN</p>
+
+<p class="center bold mt20" style="font-size:15pt;">
+NHIỆM VỤ BÀI THI TỐT NGHIỆP
+</p>
+
+<p class="center mt20">
+<i>(Sinh viên phải dán tờ này vào trang thứ nhất của Bản thuyết minh)</i>
+</p>
+
+<!-- ================== HỌ VÀ TÊN ================== -->
+<p class="mt30 bold">HỌ VÀ TÊN:</p>
+<p class="indent">
+1/ Bùi Hữu Thuận ........................................<br>
+&nbsp;&nbsp;&nbsp;&nbsp;MSSV: DH52111843 .......... LỚP: D21_TH07
+</p>
+<p class="indent">
+2/ Bùi Minh Phúc ........................................<br>
+&nbsp;&nbsp;&nbsp;&nbsp;MSSV: DH52103682 .......... LỚP: D21_TH01
+</p>
+
+<p class="mt20"><strong>NGÀNH:</strong> Tin học</p>
+
+<!-- ================== 1. ĐẦU ĐỀ ================== -->
+<p class="mt30 bold">1. ĐẦU ĐỀ BÀI THI:</p>
+<p class="indent">rô bờ lốc</p>
+
+<!-- ================== 2. NHIỆM VỤ ================== -->
+<p class="mt20 bold">2. NHIỆM VỤ YÊU CẦU VỀ NỘI DUNG VÀ SỐ LIỆU BAN ĐẦU:</p><p class="indent">- Tìm hiểu các công nghệ lập trình web</p><p class="indent">- Xây dựng CSDL</p><p class="indent">- Xây dựng website theo công nghệ đã tìm hiểu</p>
+
+<!-- ================== 3. TÀI LIỆU ================== -->
+<p class="mt20 bold">3. CÁC HỒ SƠ VÀ TÀI LIỆU CUNG CẤP BAN ĐẦU:</p>
+<p class="indent">document</p>
+
+<!-- ================== 4 + 5. NGÀY ================== -->
+<p class="mt20"><strong>4. NGÀY GIAO NHIỆM VỤ BÀI THI:</strong> 2025-12-19</p>
+<p><strong>5. NGÀY HOÀN THÀNH NHIỆM VỤ:</strong> 2025-12-20</p>
+
+<!-- ================== 6. GVHD ================== -->
+<table class="table-body mt30">
+<tr>
+<td width="55%">
+    <strong>6. HỌ TÊN NGƯỜI HƯỚNG DẪN:</strong><br><br>
+    (1) Bùi Nhật Bằng ........................................
+</td>
+<td width="45%" align="center">
+    <strong>PHẦN HƯỚNG DẪN</strong><br><br>
+    Toàn bộ
+</td>
+</tr>
+</table>
+
+<p class="mt30">
+Nội dung và yêu cầu của Bài thi Tốt nghiệp đã được thông qua Khoa.
+</p>
+
+<!-- ================== CHỮ KÝ ================== -->
+<table class="table-body mt40">
+<tr>
+<td width="50%" align="center">
+    <strong>TRƯỞNG KHOA</strong><br>
+    (Ký và ghi rõ họ tên)
+</td>
+<td width="50%" align="center">
+    Tp. Hồ Chí Minh, ngày 19 tháng 12 năm 2025<br><br>
+    <strong>NGƯỜI HƯỚNG DẪN CHÍNH</strong><br>
+    (Ký và ghi rõ họ tên)<br><br><br>
+    <strong>Bùi Nhật Bằng</strong>
+</td>
+</tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Nhiệm vụ LVTN</title>
+    <style>
+        body { font-family: "Times New Roman", serif; font-size: 14pt; margin: 1.5cm 2.5cm; line-height: 1.6; }
+        .center { text-align: center; }
+        .bold { font-weight: bold; }
+        .uppercase { text-transform: uppercase; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        td { padding: 6px 0; vertical-align: top; }
+        .signature { height: 120px; }
+        .line { border-bottom: 1px solid #000; display: inline-block; width: 300px; }
+    </style>
+</head>
+<body>
+
+<div class="center">
+    <div class="bold uppercase">BỘ GIÁO DỤC VÀ ĐÀO TẠO</div>
+    <div class="bold uppercase">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</div>
+    <br><br>
+    <div class="bold uppercase">TRƯỜNG ĐẠI HỌC CÔNG NGHỆ SÀI GÒN</div>
+    <div class="bold">Độc lập – Tự do – Hạnh phúc</div>
+    <br><br>
+    <div><strong>TP. HỒ CHÍ MINH</strong></div>
+    <div style="margin:30px 0;">- - - - - - - - - -</div>
+</div>
+
+<div class="center bold uppercase" style="font-size:18pt;margin:40px 0;">
+    KHOA : CÔNG NGHỆ THÔNG TIN<br><br>
+    NHIỆM VỤ BÀI THI TỐT NGHIỆP
+</div>
+
+<p class="center"><em>(Sinh viên phải dán tờ này vào trang thứ nhất của Bản thuyết minh)</em></p>
+
+<table>
+    <tr>
+        <td width="130"><strong>HỌ VÀ TÊN :</strong></td>
+        <td>1/ Đinh Quang Thịnh<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MSSV: DH52112786 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LỚP: D21_TH10<br><br>2/ Đỗ Quốc Khánh<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MSSV: DH52111112 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LỚP: D21_TH10<br><br>      </td>
+    </tr>
+    <tr>
+        <td><strong>NGÀNH :</strong></td>
+        <td>Tin học</td>
+    </tr>
+</table>
+
+<p><strong>1. ĐẦU ĐỀ BÀI THI :</strong></p>
+<p style="margin-left:50px;">(Chưa nhập)</p>
+
+<p><strong>2. NHIỆM VỤ YÊU CẦU VỀ NỘI DUNG VÀ SỐ LIỆU BAN ĐẦU:</strong></p>
+<p style="margin-left:50px;">
+- viết thêm các chức năng
+</p>
+
+<p><strong>3. CÁC HỒ SƠ VÀ TÀI LIỆU CUNG CẤP BAN ĐẦU :</strong></p>
+<p style="margin-left:50px;">document</p>
+
+<p><strong>4. NGÀY GIAO NHIỆM VỤ BÀI THI :</strong> 2025-12-12</p>
+<p><strong>5. NGÀY HOÀN THÀNH NHIỆM VỤ :</strong> 2025-12-13</p>
+
+<p><strong>6. HỌ TÊN NGƯỜI HƯỚNG DẪN:</strong></p>
+<div style="margin:40px 0 100px 50px;">
+    <p><strong>PHẦN HƯỚNG DẪN</strong></p>
+    <p>(1)  Bùi Nhật Bằng</p>
+    <p style="margin-left:40px;">Toàn bộ</p>
+</div>
+
+<div style="position:relative; height:220px;">
+    <div style="position:absolute; right:80px; text-align:center; width:400px;">
+        <p><em>Nội dung và yêu cầu của Bài thi Tốt nghiệp đã được thông qua Khoa.</em></p>
+        <p>Tp. Hồ Chí Minh, ngày 12 tháng 12 năm 2025</p>
+        <br><br><br>
+        <p><strong>TRƯỞNG KHOA</strong></p>
+        <br><br><br><br><br>
+        <p><strong>NGƯỜI HƯỚNG DẪN CHÍNH</strong></p>
+        <br><br><br><br>
+        <p class="bold">Bùi Nhật Bằng</p>
+    </div>
+</div>
+
+</body>
+</html>
